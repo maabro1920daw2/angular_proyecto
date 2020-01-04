@@ -1,0 +1,144 @@
+[
+    {
+        "titulo":"AKIRA 01",
+        "autor":[
+            "Katsuhiro Otomo"
+        ],
+        "tipo":"manga",
+        "serie":"AKIRA",
+        "img":"manga_01"
+    },
+    {
+        "titulo":"AKIRA 02",
+        "autor":[
+            "Katsuhiro Otomo"
+        ],
+        "tipo":"manga",
+        "serie":"AKIRA",
+        "img":"manga_02"
+    },
+    {
+        "titulo":"AKIRA 03",
+        "autor":[
+            "Katsuhiro Otomo"
+        ],
+        "tipo":"manga",
+        "serie":"AKIRA",
+        "img":"manga_03"
+    },
+    {
+        "titulo":"AKIRA 04",
+        "autor":[
+            "Katsuhiro Otomo"
+        ],
+        "tipo":"manga",
+        "serie":"AKIRA",
+        "img":"manga_04"
+    },
+    {
+        "titulo":"AKIRA 05",
+        "autor":[
+            "Katsuhiro Otomo"
+        ],
+        "tipo":"manga",
+        "serie":"AKIRA",
+        "img":"manga_05"
+    },
+    {
+        "titulo":"AKIRA 06",
+        "autor":[
+            "Katsuhiro Otomo"
+        ],
+        "tipo":"manga",
+        "serie":"AKIRA",
+        "img":"manga_06"
+    },
+    {
+        "titulo":"DINASTÍA DE X 03",
+        "autor":[
+            "Jonathan Hickman",
+            "Pepe Larraz"
+        ],
+        "tipo":"marvel",
+        "serie":"DINASTÍA DE X",
+        "img":"marvel_01"
+    },
+    {
+        "titulo":"X-23 Nº02: ASESINA-X",
+        "autor":[
+            "Mariko Tamaki"
+        ],
+        "tipo":"marvel",
+        "serie":"X-23",
+        "img":"marvel_02"
+    },
+    {
+        "titulo":"MARVEL TEAM-UP",
+        "autor":[
+            "Chris Claremont",
+            "John Byrne"
+        ],
+        "tipo":"marvel",
+        "serie":"MARVEL TEAM-UP DE CHRIS CLAREMONT Y JOHN BYRNE",
+        "img":"marvel_03"
+    },
+    {
+        "titulo":"HISTORIA DEL UNIVERSO MARVEL 02",
+        "autor":[
+            "Javier Rodriguez",
+            "Mark Waid"
+        ],
+        "tipo":"marvel",
+        "serie":"HISTORIA DEL UNIVERSO MARVEL",
+        "img":"marvel_04"
+    },
+    {
+        "titulo":"JOKER: EL HOMBRE QUE RÍE",
+        "autor":[
+            "Amancay Nahuelpan",
+            "Andy Kubert",
+            "Doug Mahnke",
+            "Ed Brubaker"
+        ],
+        "tipo":"dc",
+        "serie":"JOKER: EL HOMBRE QUE RÍE",
+        "img":"dc_01"
+    },
+    {
+        "titulo":"SUPERMAN 93 / 13",
+        "autor":[
+            "Brandon Peterson",
+            "Brian Michael Bendis",
+            "Kevin Maguire",
+            "Marc Andreyko",
+            "Szymon Kudranski"
+        ],
+        "tipo":"dc",
+        "serie":"SUPERMAN",
+        "img":"dc_02"
+    },
+    {
+        "titulo":"SUPERMAN 88 / 09",
+        "autor":[
+            "Brandon Peterson",
+            "Brian Michael Bendis",
+            "Ivan Reis",
+            "Steve Epting"
+        ],
+        "tipo":"dc",
+        "serie":"SUPERMAN",
+        "img":"dc_03"
+    },
+    {
+        "titulo":"SUPERMAN 87 / 08",
+        "autor":[
+            "Brandon Peterson",
+            "Brian Michael Bendis",
+            "Ivan Reis",
+            "Steve Epting"
+        ],
+        "tipo":"dc",
+        "serie":"SUPERMAN",
+        "img":"dc_04"
+    }
+]
