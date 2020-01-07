@@ -1,0 +1,13 @@
+.content {
+    width: 69%;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+.example-card {
+    max-width: 220px;
+    display: inline-block;
+    margin: 10px;
+}
+.img_portada{
+    height: 350px;
+}

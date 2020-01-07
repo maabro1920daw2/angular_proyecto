@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-// importar el archivo .json
-import listaComics from 'src/assets/json/comics.json';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +7,4 @@ import listaComics from 'src/assets/json/comics.json';
 })
 export class AppComponent {
   title = 'comix-zone';
-  // mostrar el archivo
-  Comics: any = listaComics;
 }

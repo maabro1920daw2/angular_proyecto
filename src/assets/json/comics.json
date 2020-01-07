@@ -6,7 +6,8 @@
         ],
         "tipo":"manga",
         "serie":"AKIRA",
-        "img":"manga_01.png"
+        "img":"manga_01.png",
+        "sinopsis":"En la hostil y caótica megalópolis de Neo Tokyo, Tetsuo y sus compañeros deberán averiguar el enigma de Akira, bajo el cual se esconde el más escalofriante secreto científico. La edición definitiva de una obra maestra del cómic japonés -y también mundial- que no debe faltar en la estantería de cualquier aficionado al cómic en general."
     },
     {
         "titulo":"AKIRA 02",
@@ -15,7 +16,8 @@
         ],
         "tipo":"manga",
         "serie":"AKIRA",
-        "img":"manga_02.png"
+        "img":"manga_02.png",
+        "sinopsis":"En la hostil y caótica megalópolis de Neo Tokyo, Tetsuo y sus compañeros deberán averiguar el enigma de Akira, bajo el cual se esconde el más escalofriante secreto científico. La edición definitiva de una obra maestra del cómic japonés -y también mundial- que no debe faltar en la estantería de cualquier aficionado al cómic en general."
     },
     {
         "titulo":"AKIRA 03",
@@ -24,7 +26,8 @@
         ],
         "tipo":"manga",
         "serie":"AKIRA",
-        "img":"manga_03.png"
+        "img":"manga_03.png",
+        "sinopsis":"En la hostil y caótica megalópolis de Neo Tokyo, Tetsuo y sus compañeros deberán averiguar el enigma de Akira, bajo el cual se esconde el más escalofriante secreto científico. La edición definitiva de una obra maestra del cómic japonés -y también mundial- que no debe faltar en la estantería de cualquier aficionado al cómic en general."
     },
     {
         "titulo":"AKIRA 04",
@@ -33,7 +36,8 @@
         ],
         "tipo":"manga",
         "serie":"AKIRA",
-        "img":"manga_04.png"
+        "img":"manga_04.png",
+        "sinopsis":"En la hostil y caótica megalópolis de Neo Tokyo, Tetsuo y sus compañeros deberán averiguar el enigma de Akira, bajo el cual se esconde el más escalofriante secreto científico. La edición definitiva de una obra maestra del cómic japonés -y también mundial- que no debe faltar en la estantería de cualquier aficionado al cómic en general."
     },
     {
         "titulo":"AKIRA 05",
@@ -42,7 +46,8 @@
         ],
         "tipo":"manga",
         "serie":"AKIRA",
-        "img":"manga_05.png"
+        "img":"manga_05.png",
+        "sinopsis":"En la hostil y caótica megalópolis de Neo Tokyo, Tetsuo y sus compañeros deberán averiguar el enigma de Akira, bajo el cual se esconde el más escalofriante secreto científico. La edición definitiva de una obra maestra del cómic japonés -y también mundial- que no debe faltar en la estantería de cualquier aficionado al cómic en general."
     },
     {
         "titulo":"AKIRA 06",
@@ -51,7 +56,8 @@
         ],
         "tipo":"manga",
         "serie":"AKIRA",
-        "img":"manga_06.png"
+        "img":"manga_06.png",
+        "sinopsis":"En la hostil y caótica megalópolis de Neo Tokyo, Tetsuo y sus compañeros deberán averiguar el enigma de Akira, bajo el cual se esconde el más escalofriante secreto científico. La edición definitiva de una obra maestra del cómic japonés -y también mundial- que no debe faltar en la estantería de cualquier aficionado al cómic en general."
     },
     {
         "titulo":"DINASTÍA DE X 03",
@@ -61,7 +67,8 @@
         ],
         "tipo":"marvel",
         "serie":"DINASTÍA DE X",
-        "img":"marvel_01.png"
+        "img":"marvel_01.png",
+        "sinopsis":"Descubre la verdad sobre uno de los más cercanos aliados de La Patrulla-X, justo a tiempo para el comienzo de la batalla por el futuro de los mutantes. La superestrella Jonathan Hickman continúa reconstruyendo la Franquicia-X junto al Young Gun Pepe Larraz."
     },
     {
         "titulo":"X-23 Nº02: ASESINA-X",
@@ -70,7 +77,8 @@
         ],
         "tipo":"marvel",
         "serie":"X-23",
-        "img":"marvel_02.png"
+        "img":"marvel_02.png",
+        "sinopsis":"Una serie de horripilantes asesinatos. Un asesino que no deja rastro. Laura y Gabby a la caza. Pero cuando Laura se encuentra cara a cara con el misterioso Asesino-X, nada será lo que parece. Van a descubren que podrían no estar de acuerdo sobre qué hacer al respecto."
     },
     {
         "titulo":"MARVEL TEAM-UP",
@@ -80,7 +88,8 @@
         ],
         "tipo":"marvel",
         "serie":"MARVEL TEAM-UP DE CHRIS CLAREMONT Y JOHN BYRNE",
-        "img":"marvel_03.png"
+        "img":"marvel_03.png",
+        "sinopsis":"Una serie de horripilantes asesinatos. Un asesino que no deja rastro. Laura y Gabby a la caza. Pero cuando Laura se encuentra cara a cara con el misterioso Asesino-X, nada será lo que parece. Van a descubren que podrían no estar de acuerdo sobre qué hacer al respecto."
     },
     {
         "titulo":"HISTORIA DEL UNIVERSO MARVEL 02",
@@ -90,7 +99,8 @@
         ],
         "tipo":"marvel",
         "serie":"HISTORIA DEL UNIVERSO MARVEL",
-        "img":"marvel_04.png"
+        "img":"marvel_04.png",
+        "sinopsis":"Una serie de horripilantes asesinatos. Un asesino que no deja rastro. Laura y Gabby a la caza. Pero cuando Laura se encuentra cara a cara con el misterioso Asesino-X, nada será lo que parece. Van a descubren que podrían no estar de acuerdo sobre qué hacer al respecto."
     },
     {
         "titulo":"JOKER: EL HOMBRE QUE RÍE",
@@ -102,7 +112,8 @@
         ],
         "tipo":"dc",
         "serie":"JOKER: EL HOMBRE QUE RÍE",
-        "img":"dc_01.png"
+        "img":"dc_01.png",
+        "sinopsis":"Una serie de horripilantes asesinatos. Un asesino que no deja rastro. Laura y Gabby a la caza. Pero cuando Laura se encuentra cara a cara con el misterioso Asesino-X, nada será lo que parece. Van a descubren que podrían no estar de acuerdo sobre qué hacer al respecto."
     },
     {
         "titulo":"SUPERMAN 93 / 13",
@@ -115,7 +126,8 @@
         ],
         "tipo":"dc",
         "serie":"SUPERMAN",
-        "img":"dc_02.png"
+        "img":"dc_02.png",
+        "sinopsis":"Una serie de horripilantes asesinatos. Un asesino que no deja rastro. Laura y Gabby a la caza. Pero cuando Laura se encuentra cara a cara con el misterioso Asesino-X, nada será lo que parece. Van a descubren que podrían no estar de acuerdo sobre qué hacer al respecto."
     },
     {
         "titulo":"SUPERMAN 88 / 09",
@@ -127,7 +139,8 @@
         ],
         "tipo":"dc",
         "serie":"SUPERMAN",
-        "img":"dc_03.png"
+        "img":"dc_03.png",
+        "sinopsis":"Una serie de horripilantes asesinatos. Un asesino que no deja rastro. Laura y Gabby a la caza. Pero cuando Laura se encuentra cara a cara con el misterioso Asesino-X, nada será lo que parece. Van a descubren que podrían no estar de acuerdo sobre qué hacer al respecto."
     },
     {
         "titulo":"SUPERMAN 87 / 08",
@@ -139,6 +152,21 @@
         ],
         "tipo":"dc",
         "serie":"SUPERMAN",
-        "img":"dc_04.png"
+        "img":"dc_04.png",
+        "sinopsis":"Una serie de horripilantes asesinatos. Un asesino que no deja rastro. Laura y Gabby a la caza. Pero cuando Laura se encuentra cara a cara con el misterioso Asesino-X, nada será lo que parece. Van a descubren que podrían no estar de acuerdo sobre qué hacer al respecto."
+    },
+    {
+        "titulo":"SUPERMAN 91 / 12",
+        "autor":[
+            "Eduardo Pansica",
+            "Brian Michael Bendis",
+            "Kevin Maguire",
+            "Marc Andreyko",
+            "Szymon Kudranski"
+        ],
+        "tipo":"dc",
+        "serie":"SUPERMAN",
+        "img":"dc_05.png",
+        "sinopsis":"Una serie de horripilantes asesinatos. Un asesino que no deja rastro. Laura y Gabby a la caza. Pero cuando Laura se encuentra cara a cara con el misterioso Asesino-X, nada será lo que parece. Van a descubren que podrían no estar de acuerdo sobre qué hacer al respecto."
     }
-]
+] 
