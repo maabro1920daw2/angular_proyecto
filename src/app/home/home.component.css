@@ -4,10 +4,7 @@
     padding: 20px 0 0 0;
 }
 .example-card {
-    max-width: 220px;
+    max-width: 260px;
     display: inline-block;
     margin: 10px;
-}
-.img_portada{
-    height: 350px;
 }

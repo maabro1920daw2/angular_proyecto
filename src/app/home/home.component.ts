@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 // importar el archivo .json
 import listaComics from 'src/assets/json/comics.json';
+import listaJuegos from 'src/assets/json/gameboy.json';
 
 @Component({
   selector: 'app-home',
@@ -14,5 +15,6 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
   // mostrar el archivo
-  Comics: any = listaComics;
+  //Comics: any = listaComics;
+  Juegos: any = listaJuegos;
 }

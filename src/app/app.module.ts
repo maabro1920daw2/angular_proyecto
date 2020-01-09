@@ -10,6 +10,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { FavComponent } from './fav/fav.component';
 import { SearchComponent } from './search/search.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SearchComponent } from './search/search.component';
     NavbarComponent,
     HomeComponent,
     FavComponent,
-    SearchComponent
+    SearchComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

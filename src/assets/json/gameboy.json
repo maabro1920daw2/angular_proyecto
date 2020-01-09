@@ -1,0 +1,18 @@
+[
+    {
+        "titulo":"Advance Wars",
+        "distribuidor":"Nintendo",
+        "desarrollador":"Intelligent Systems",
+        "consola":"GBA",
+        "fecha":"2001",
+        "img":"c01.png"
+    },
+    {
+        "titulo":"Castlevania CoM",
+        "distribuidor":"Konami",
+        "desarrollador":"KCEK",
+        "consola":"GBA",
+        "fecha":"2001",
+        "img":"c02.png"
+    }
+]
