@@ -1,29 +1,36 @@
 [
     {
+        "id":1,
         "titulo":"Advance Wars",
         "distribuidor":"Nintendo",
         "desarrollador":"Intelligent Systems",
         "consola":"GBA",
         "fecha":"2001",
-        "img":"c01.png"
+        "img":"c01.png",
+        "tag":"advancewars"
     },
     {
+        "id":2,
         "titulo":"Castlevania CoM",
         "distribuidor":"Konami",
         "desarrollador":"KCEK",
         "consola":"GBA",
         "fecha":"2001",
-        "img":"c02.png"
+        "img":"c02.png",
+        "tag":"castlevaniacom"
     },
     {
+        "id":3,
         "titulo":"Donkey Kong Country",
         "distribuidor":"Nintendo",
         "desarrollador":"Rare",
         "consola":"GBC",
         "fecha":"1994",
-        "img":"c03.png"
+        "img":"c03.png",
+        "tag":"donkeykongcountry"
     },
     {
+        "id":4,
         "titulo":"Duke Nukem",
         "distribuidor":"GT Interactive",
         "desarrollador":"Torus Games",
@@ -32,99 +39,123 @@
         "img":"c04.png"
     },
     {
-        "titulo":"Pokémon oro",
+        "id":5,
+        "titulo":"Pokémon Gold",
         "distribuidor":"The Pokémon Company",
         "desarrollador":"Game Freak",
         "consola":"GBC",
         "fecha":"2001",
-        "img":"c05.png"
+        "img":"c05.png",
+        "tag":"pokemongold"
     },
     {
-        "titulo":"Pokémon plata",
+        "id":6,
+        "titulo":"Pokémon Silver",
         "distribuidor":"The Pokémon Company",
         "desarrollador":"Game Freak",
         "consola":"GBC",
         "fecha":"2001",
-        "img":"c06.png"
+        "img":"c06.png",
+        "tag":"pokemonsilver"
     },
     {
+        "id":7,
         "titulo":"Pokémon TCG",
         "distribuidor":"Nintendo",
         "desarrollador":"Hudson Soft",
         "consola":"GBC",
         "fecha":"2000",
-        "img":"c07.png"
+        "img":"c07.png",
+        "tag":"pokemontcg"
     },
     {
+        "id":8,
         "titulo":"Golden Sun",
         "distribuidor":"Nintendo",
         "desarrollador":"Camelot Software Planning",
         "consola":"GBA",
         "fecha":"2002",
-        "img":"c08.png"
+        "img":"c08.png",
+        "tag":"goldensun"
     },
     {
+        "id":9,
         "titulo":"Golden Sun 2",
         "distribuidor":"Nintendo",
         "desarrollador":"Camelot Software Planning",
         "consola":"GBA",
         "fecha":"2003",
-        "img":"c09.png"
+        "img":"c09.png",
+        "tag":"goldensun2"
     },
     {
+        "id":10,
         "titulo":"Mario Kart: SC",
         "distribuidor":"Nintendo",
         "desarrollador":"Intelligent Systems",
         "consola":"GBA",
         "fecha":"2001",
-        "img":"c10.png"
+        "img":"c10.png",
+        "tag":"mariokartsc"
     },
     {
+        "id":11,
         "titulo":"Metroid II: RoS",
         "distribuidor":"Nintendo",
         "desarrollador":"Intelligent Systems",
         "consola":"GB",
         "fecha":"1992",
-        "img":"c11.png"
+        "img":"c11.png",
+        "tag":"metroid2ros"
     },
     {
+        "id":12,
         "titulo":"Tetris",
         "distribuidor":"Nintendo",
         "desarrollador":"Blue Planet Software",
         "consola":"GB",
         "fecha":"1989",
-        "img":"c12.png"
+        "img":"c12.png",
+        "tag":"tetris"
     },
     {
+        "id":13,
         "titulo":"Mega Man V",
         "distribuidor":"Capcom",
         "desarrollador":"Capcom",
         "consola":"GB",
         "fecha":"1994",
-        "img":"c13.png"
+        "img":"c13.png",
+        "tag":"megamanv"
     },
     {
-        "titulo":"Pokémon amarillo",
+        "id":14,
+        "titulo":"Pokémon Yellow",
         "distribuidor":"Nintendo",
         "desarrollador":"Game Freak",
         "consola":"GB",
         "fecha":"2000",
-        "img":"c14.png"
+        "img":"c14.png",
+        "tag":"pokemonyellow"
     },
     {
+        "id":15,
         "titulo":"Super Mario Land",
         "distribuidor":"Nintendo",
         "desarrollador":"Nintendo R&D1",
         "consola":"GB",
         "fecha":"1990",
-        "img":"c15.png"
+        "img":"c15.png",
+        "tag":"supermarioland"
     },
     {
+        "id":16,
         "titulo":"Wario Land",
         "distribuidor":"Nintendo",
         "desarrollador":"Nintendo R&D1",
         "consola":"GB",
         "fecha":"1994",
-        "img":"c16.png"
+        "img":"c16.png",
+        "tag":"warioland"
     }
 ]

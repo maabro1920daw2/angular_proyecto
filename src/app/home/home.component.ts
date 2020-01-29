@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Inject, Injectable } from '@angular/core';
+import { LOCAL_STORAGE, StorageService} from 'ngx-webstorage-service';
 // importar el archivo .json
-import listaComics from 'src/assets/json/comics.json';
 import listaJuegos from 'src/assets/json/gameboy.json';
 
 @Component({
@@ -14,7 +15,12 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
   }
-  // mostrar el archivo
-  //Comics: any = listaComics;
-  Juegos: any = listaJuegos;
+    // mostrar el archivo
+    Juegos: any = listaJuegos;
+
+  //$scope.favouriteList = [];
+  //$scope.favouriteThis = function (juego) {
+    //$scope.favouriteList.push(juego); 
+    // make sure to check for duplicates before pushing the item, the logic for which i've not included here.
+  //}
 }

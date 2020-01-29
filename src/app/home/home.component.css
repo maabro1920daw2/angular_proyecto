@@ -8,3 +8,7 @@
     display: inline-block;
     margin: 10px;
 }
+.img_portada {
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}

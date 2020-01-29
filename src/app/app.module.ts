@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { StorageServiceModule} from 'ngx-webstorage-service';
 
 import { MatToolbarModule, MatButtonModule, MatIconModule, MatCardModule } from '@angular/material';
 
@@ -11,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { FavComponent } from './fav/fav.component';
 import { SearchComponent } from './search/search.component';
 import { FooterComponent } from './footer/footer.component';
+import { SliderComponent } from './home/slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     FavComponent,
     SearchComponent,
-    FooterComponent
+    FooterComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +31,8 @@ import { FooterComponent } from './footer/footer.component';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    StorageServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
