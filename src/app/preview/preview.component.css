@@ -1,0 +1,15 @@
+.preview-container {
+    width: 27%;
+    margin: 10px auto 0 auto;
+}
+.pr {
+    width: 500px;
+    height: 551px;
+    position: relative;
+    top: 6px;
+    left: 6px;
+}
+.controles {
+    padding: 10px;
+    text-align: center;
+}

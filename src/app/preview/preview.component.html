@@ -1,0 +1,16 @@
+<!-- carousel -->
+<div class="preview-container mat-elevation-z5">
+  <ng-container *ngFor="let pr of prevs; let i = index">
+    <img *ngIf="i === current" [src]="pr.src" class="pr" />
+  </ng-container>
+
+  <!-- controls -->
+  <div class="controles">
+    <button class="control prev" (click)="onPrev()">
+      <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">keyboard_arrow_left</mat-icon>
+    </button>
+    <button class="control next" (click)="onNext()">
+      <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">keyboard_arrow_right</mat-icon>
+    </button>
+  </div>
+</div>

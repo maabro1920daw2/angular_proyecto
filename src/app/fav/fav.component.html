@@ -1,1 +1,24 @@
-<p>fav works!</p>
+<div class="fav-container">
+    <mat-accordion>
+        <mat-expansion-panel *ngFor="let favorito of Fav">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    <h3>{{favorito.titulo}}</h3>
+                </mat-panel-title>
+                <mat-panel-description></mat-panel-description>
+            </mat-expansion-panel-header>
+            <mat-divider></mat-divider>
+            <div class="img-fav">
+                <img src="assets/caratulas/{{favorito.img}}" alt="" width="250px" height="250px">
+            </div>
+            <div class="info-fav">
+                <mat-list role="list">
+                    <mat-list-item role="listitem"><span><b>Año lanzamiento:</b> {{favorito.fecha}}</span></mat-list-item>
+                    <mat-list-item role="listitem"><span><b>Distribuidor:</b> {{favorito.distribuidor}}</span></mat-list-item>
+                    <mat-list-item role="listitem"><span><b>Desarrollador:</b> {{favorito.desarrollador}}</span></mat-list-item>
+                    <mat-list-item role="listitem"><img class="miniatura" src="assets/consolas/{{favorito.consola}}.png" alt="" width="75px" height="75px"></mat-list-item>
+                </mat-list>                  
+            </div>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>

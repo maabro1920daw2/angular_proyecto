@@ -1,1 +1,40 @@
-<p>search works!</p>
+<div class="search-container">
+    <div class="search">
+        <mat-form-field class="npt1">
+            <input matInput name="filter" placeholder="Titulo" [(ngModel)]="filter">
+        </mat-form-field>
+    </div>
+    <table mat-table [dataSource]="dataSource | search:filter" class="mat-elevation-z8">
+
+        <ng-container matColumnDef="id">
+          <th class="border" mat-header-cell *matHeaderCellDef></th>
+          <td class="border" mat-cell *matCellDef="let element"><img class="miniatura" src="assets/caratulas/{{element.img}}" alt="{{element.titulo}}" width="75px" height="75px"></td>
+        </ng-container>
+      
+        <ng-container matColumnDef="titulo">
+          <th class="border" mat-header-cell *matHeaderCellDef> Titulo </th>
+          <td class="border" mat-cell *matCellDef="let element"> {{element.titulo}} </td>
+        </ng-container>
+      
+        <ng-container matColumnDef="consola">
+          <th class="border" mat-header-cell *matHeaderCellDef></th>
+          <td class="border" mat-cell *matCellDef="let element"><img class="miniatura" src="assets/consolas/{{element.consola}}.png" alt="{{element.consola}}" width="75px" height="75px"></td>
+        </ng-container>
+      
+        <ng-container matColumnDef="distribuidor">
+          <th class="border" mat-header-cell *matHeaderCellDef> Distribuidor </th>
+          <td class="border" mat-cell *matCellDef="let element"> {{element.distribuidor}} </td>
+        </ng-container>
+    
+        <ng-container matColumnDef="desarrollador">
+            <th class="border" mat-header-cell *matHeaderCellDef> Desarrollador </th>
+            <td class="border" mat-cell *matCellDef="let element"> {{element.desarrollador}} </td>
+        </ng-container>
+      
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+</div>
+
+  
+  

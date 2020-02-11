@@ -7,7 +7,8 @@
         "consola":"GBA",
         "fecha":"2001",
         "img":"c01.png",
-        "tag":"advancewars"
+        "tag":"advancewars",
+        "fav":false
     },
     {
         "id":2,
@@ -17,7 +18,8 @@
         "consola":"GBA",
         "fecha":"2001",
         "img":"c02.png",
-        "tag":"castlevaniacom"
+        "tag":"castlevaniacom",
+        "fav":false
     },
     {
         "id":3,
@@ -27,7 +29,8 @@
         "consola":"GBC",
         "fecha":"1994",
         "img":"c03.png",
-        "tag":"donkeykongcountry"
+        "tag":"donkeykongcountry",
+        "fav":false
     },
     {
         "id":4,
@@ -36,27 +39,31 @@
         "desarrollador":"Torus Games",
         "consola":"GBC",
         "fecha":"1998",
-        "img":"c04.png"
+        "img":"c04.png",
+        "tag":"dukenukem",
+        "fav":false
     },
     {
         "id":5,
-        "titulo":"Pokémon Gold",
+        "titulo":"Pokémon Oro",
         "distribuidor":"The Pokémon Company",
         "desarrollador":"Game Freak",
         "consola":"GBC",
         "fecha":"2001",
         "img":"c05.png",
-        "tag":"pokemongold"
+        "tag":"pokemonoro",
+        "fav":false
     },
     {
         "id":6,
-        "titulo":"Pokémon Silver",
+        "titulo":"Pokémon Plata",
         "distribuidor":"The Pokémon Company",
         "desarrollador":"Game Freak",
         "consola":"GBC",
         "fecha":"2001",
         "img":"c06.png",
-        "tag":"pokemonsilver"
+        "tag":"pokemonplata",
+        "fav":false
     },
     {
         "id":7,
@@ -66,7 +73,8 @@
         "consola":"GBC",
         "fecha":"2000",
         "img":"c07.png",
-        "tag":"pokemontcg"
+        "tag":"pokemontcg",
+        "fav":false
     },
     {
         "id":8,
@@ -76,7 +84,8 @@
         "consola":"GBA",
         "fecha":"2002",
         "img":"c08.png",
-        "tag":"goldensun"
+        "tag":"goldensun",
+        "fav":false
     },
     {
         "id":9,
@@ -86,7 +95,8 @@
         "consola":"GBA",
         "fecha":"2003",
         "img":"c09.png",
-        "tag":"goldensun2"
+        "tag":"goldensun2",
+        "fav":false
     },
     {
         "id":10,
@@ -96,7 +106,8 @@
         "consola":"GBA",
         "fecha":"2001",
         "img":"c10.png",
-        "tag":"mariokartsc"
+        "tag":"mariokartsc",
+        "fav":false
     },
     {
         "id":11,
@@ -106,7 +117,8 @@
         "consola":"GB",
         "fecha":"1992",
         "img":"c11.png",
-        "tag":"metroid2ros"
+        "tag":"metroid2ros",
+        "fav":false
     },
     {
         "id":12,
@@ -116,7 +128,8 @@
         "consola":"GB",
         "fecha":"1989",
         "img":"c12.png",
-        "tag":"tetris"
+        "tag":"tetris",
+        "fav":false
     },
     {
         "id":13,
@@ -126,17 +139,19 @@
         "consola":"GB",
         "fecha":"1994",
         "img":"c13.png",
-        "tag":"megamanv"
+        "tag":"megamanv",
+        "fav":false
     },
     {
         "id":14,
-        "titulo":"Pokémon Yellow",
+        "titulo":"Pokémon Amarillo",
         "distribuidor":"Nintendo",
         "desarrollador":"Game Freak",
         "consola":"GB",
         "fecha":"2000",
         "img":"c14.png",
-        "tag":"pokemonyellow"
+        "tag":"pokemonamarillo",
+        "fav":false
     },
     {
         "id":15,
@@ -146,7 +161,8 @@
         "consola":"GB",
         "fecha":"1990",
         "img":"c15.png",
-        "tag":"supermarioland"
+        "tag":"supermarioland",
+        "fav":false
     },
     {
         "id":16,
@@ -156,6 +172,7 @@
         "consola":"GB",
         "fecha":"1994",
         "img":"c16.png",
-        "tag":"warioland"
+        "tag":"warioland",
+        "fav":false
     }
 ]

@@ -1,1 +1,18 @@
-<p>Hola holita</p>
+<!-- carousel -->
+<div class="slider mat-elevation-z5">
+    <ng-container *ngFor="let slide of slides; let i = index">
+      <img *ngIf="i === currentSlide"
+        [src]="slide.src"
+        class="slide"
+        @sliderAnimation
+      />
+    </ng-container>
+  
+    <!-- controls -->
+    <button class="control prev" (click)="onPrev()">
+      <span class="arrow left"></span>
+    </button>
+    <button class="control next" (click)="onNext()">
+      <span class="arrow right"></span>
+    </button>
+</div>

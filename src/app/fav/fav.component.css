@@ -1,0 +1,30 @@
+.fav-container {
+    width: 60%;
+    margin: 15px auto 0 auto;
+}
+.fav-container h3 {
+    color: #16428d;
+}
+
+.mat-expansion-panel {
+    margin-bottom: 15px;
+}
+
+.img-fav, .info-fav {
+    display: inline-block;
+}
+.img-fav {
+    width: 26%;
+}
+.img-fav img {
+    border: 1px solid #16428d;
+    margin: 20px 0 0 20px;
+}
+.info-fav {
+    position: relative;
+    bottom: 20px;
+}
+.info-fav .mat-list {
+    margin: 15px 0 0 0;
+    vertical-align: top;
+}
