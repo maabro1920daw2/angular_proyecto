@@ -1,2 +1,17 @@
-<p>{{gameId}}</p>
-<app-preview></app-preview>
+<mat-card class="game-container mat-elevation-z5">
+    <mat-card-title><h3>{{titulo}}</h3></mat-card-title>   
+    <div class="img-fav">
+        <img src="assets/caratulas/{{img}}" alt="" width="250px" height="250px">
+    </div>
+    <div class="info-fav">
+        <mat-list role="list">
+            <mat-list-item role="listitem"><span><b>Año lanzamiento:</b> {{fecha}}</span></mat-list-item>
+            <mat-list-item role="listitem"><span><b>Distribuidor:</b> {{distribuidor}}</span></mat-list-item>
+            <mat-list-item role="listitem"><span><b>Desarrollador:</b> {{desarrollador}}</span></mat-list-item>
+            <mat-list-item role="listitem"><img class="miniatura" src="assets/consolas/{{consola}}.png" alt="" width="75px" height="75px"></mat-list-item>
+        </mat-list>                  
+    </div>
+
+    <app-preview></app-preview>
+</mat-card>
+

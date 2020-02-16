@@ -10,16 +10,43 @@ const ELEMENT_DATA: Lista[] = listaJuegos;
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-
-  constructor() { }
+see = [];
+  constructor() { 
+    this.comprobarFavoritos();
+  }
 
   ngOnInit() {
 
   }
 
-  filter='';
+  titulo='';
+  dist='';
+  desa='';
   
+  comprobarFavoritos(){
+    for (let n = 0; n < localStorage.length; n++) {
+      let key = localStorage.key(n);
+      for(let i = 0; i < this.dataSource.length; i++){
+        if(key == this.dataSource[i].tag){
+          this.see.push(i);
+        }
+      }
 
-  displayedColumns: string[] = ['id', 'titulo', 'consola', 'distribuidor', 'desarrollador'];
+    }
+
+    for(let j=0; j < this.dataSource.length; j++){
+      for(let m=0; m < this.see.length; m++){
+        if(j == this.see[m]){
+          this.dataSource[j].fav = true;
+          break;
+        }else{
+          this.dataSource[j].fav = false;
+        }
+      }
+    }
+
+  }
+
+  displayedColumns: string[] = ['id', 'titulo', 'distribuidor', 'desarrollador', 'descripcion', 'fav'];
   dataSource = ELEMENT_DATA;
 }

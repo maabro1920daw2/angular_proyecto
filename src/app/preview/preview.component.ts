@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-preview',
   templateUrl: './preview.component.html',
-  styleUrls: ['./preview.component.css']
+  styleUrls: ['./preview.component.css'],
 })
 export class PreviewComponent implements OnInit {
   prevs = [
@@ -39,5 +39,6 @@ export class PreviewComponent implements OnInit {
     this.current = next === this.prevs.length ? 0 : next;
     console.log("next clicked, new current slide is: ", this.current);
   }
+
 
 }

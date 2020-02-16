@@ -1,10 +1,16 @@
 <div class="search-container">
     <div class="search">
         <mat-form-field class="npt1">
-            <input matInput name="filter" placeholder="Titulo" [(ngModel)]="filter">
+            <input matInput name="titulo" placeholder="Titulo" [(ngModel)]="titulo">
+        </mat-form-field>
+        <mat-form-field class="npt1">
+          <input matInput name="dist" placeholder="Distribuidor" [(ngModel)]="dist">
+        </mat-form-field>
+        <mat-form-field class="npt2">
+          <input matInput name="desa" placeholder="Desarrollador" [(ngModel)]="desa">
         </mat-form-field>
     </div>
-    <table mat-table [dataSource]="dataSource | search:filter" class="mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource | search:titulo | search:dist | search:desa" class="mat-elevation-z8">
 
         <ng-container matColumnDef="id">
           <th class="border" mat-header-cell *matHeaderCellDef></th>
@@ -16,11 +22,6 @@
           <td class="border" mat-cell *matCellDef="let element"> {{element.titulo}} </td>
         </ng-container>
       
-        <ng-container matColumnDef="consola">
-          <th class="border" mat-header-cell *matHeaderCellDef></th>
-          <td class="border" mat-cell *matCellDef="let element"><img class="miniatura" src="assets/consolas/{{element.consola}}.png" alt="{{element.consola}}" width="75px" height="75px"></td>
-        </ng-container>
-      
         <ng-container matColumnDef="distribuidor">
           <th class="border" mat-header-cell *matHeaderCellDef> Distribuidor </th>
           <td class="border" mat-cell *matCellDef="let element"> {{element.distribuidor}} </td>
@@ -30,11 +31,18 @@
             <th class="border" mat-header-cell *matHeaderCellDef> Desarrollador </th>
             <td class="border" mat-cell *matCellDef="let element"> {{element.desarrollador}} </td>
         </ng-container>
-      
+
+        <ng-container matColumnDef="descripcion">
+          <th class="border container-descripcion" mat-header-cell *matHeaderCellDef> Descripción </th>
+          <td class="border container-descripcion" mat-cell *matCellDef="let element"> {{element.descripcion}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="fav">
+          <th class="border" mat-header-cell *matHeaderCellDef>  </th>
+          <td class="border fav-container" mat-cell *matCellDef="let element"> <div *ngIf="element.fav;else elseBlock"><mat-icon class="verdadero" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon></div></td>
+          <ng-template #elseBlock><mat-icon aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon></ng-template>
+        </ng-container>
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
         <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
     </table>
 </div>
-
-  
-  

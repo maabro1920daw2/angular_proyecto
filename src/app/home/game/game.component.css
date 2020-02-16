@@ -1,0 +1,23 @@
+.game-container {
+    width: 60%;
+    margin: 15px auto 0 auto;
+}
+
+.img-fav, .info-fav {
+    display: inline-block;
+}
+.img-fav {
+    width: 26%;
+}
+.img-fav img {
+    border: 1px solid #16428d;
+    margin: 20px 0 0 20px;
+}
+.info-fav {
+    position: relative;
+    bottom: 20px;
+}
+.info-fav .mat-list {
+    margin: 15px 0 0 0;
+    vertical-align: top;
+}

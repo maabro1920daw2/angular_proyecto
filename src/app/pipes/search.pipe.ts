@@ -14,6 +14,9 @@ export class SearchPipe implements PipeTransform {
       else if(game.distribuidor.toLowerCase().indexOf(arg.toLowerCase()) > -1){
         resBus.push(game);
       }
+      else if(game.desarrollador.toLowerCase().indexOf(arg.toLowerCase()) > -1){
+        resBus.push(game);
+      }
     }
     return resBus;
   }

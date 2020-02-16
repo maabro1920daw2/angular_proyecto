@@ -8,7 +8,8 @@
         "fecha":"2001",
         "img":"c01.png",
         "tag":"advancewars",
-        "fav":false
+        "fav":false,
+        "descripcion":"Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
     },
     {
         "id":2,
@@ -19,7 +20,8 @@
         "fecha":"2001",
         "img":"c02.png",
         "tag":"castlevaniacom",
-        "fav":false
+        "fav":false,
+        "descripcion":"Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
     },
     {
         "id":3,
@@ -30,7 +32,8 @@
         "fecha":"1994",
         "img":"c03.png",
         "tag":"donkeykongcountry",
-        "fav":false
+        "fav":false,
+        "descripcion":"Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
     },
     {
         "id":4,
@@ -41,7 +44,8 @@
         "fecha":"1998",
         "img":"c04.png",
         "tag":"dukenukem",
-        "fav":false
+        "fav":false,
+        "descripcion":"Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
     },
     {
         "id":5,
@@ -52,7 +56,8 @@
         "fecha":"2001",
         "img":"c05.png",
         "tag":"pokemonoro",
-        "fav":false
+        "fav":false,
+        "descripcion":"Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
     },
     {
         "id":6,
@@ -63,7 +68,8 @@
         "fecha":"2001",
         "img":"c06.png",
         "tag":"pokemonplata",
-        "fav":false
+        "fav":false,
+        "descripcion":"Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
     },
     {
         "id":7,
@@ -74,7 +80,8 @@
         "fecha":"2000",
         "img":"c07.png",
         "tag":"pokemontcg",
-        "fav":false
+        "fav":false,
+        "descripcion":"Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
     },
     {
         "id":8,
@@ -85,7 +92,8 @@
         "fecha":"2002",
         "img":"c08.png",
         "tag":"goldensun",
-        "fav":false
+        "fav":false,
+        "descripcion":"Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
     },
     {
         "id":9,
@@ -96,7 +104,8 @@
         "fecha":"2003",
         "img":"c09.png",
         "tag":"goldensun2",
-        "fav":false
+        "fav":false,
+        "descripcion":"Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
     },
     {
         "id":10,
@@ -107,7 +116,8 @@
         "fecha":"2001",
         "img":"c10.png",
         "tag":"mariokartsc",
-        "fav":false
+        "fav":false,
+        "descripcion":"Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
     },
     {
         "id":11,
@@ -118,7 +128,8 @@
         "fecha":"1992",
         "img":"c11.png",
         "tag":"metroid2ros",
-        "fav":false
+        "fav":false,
+        "descripcion":"Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
     },
     {
         "id":12,
@@ -129,7 +140,8 @@
         "fecha":"1989",
         "img":"c12.png",
         "tag":"tetris",
-        "fav":false
+        "fav":false,
+        "descripcion":"Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
     },
     {
         "id":13,
@@ -140,7 +152,8 @@
         "fecha":"1994",
         "img":"c13.png",
         "tag":"megamanv",
-        "fav":false
+        "fav":false,
+        "descripcion":"Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
     },
     {
         "id":14,
@@ -151,7 +164,8 @@
         "fecha":"2000",
         "img":"c14.png",
         "tag":"pokemonamarillo",
-        "fav":false
+        "fav":false,
+        "descripcion":"Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
     },
     {
         "id":15,
@@ -162,7 +176,8 @@
         "fecha":"1990",
         "img":"c15.png",
         "tag":"supermarioland",
-        "fav":false
+        "fav":false,
+        "descripcion":"Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
     },
     {
         "id":16,
@@ -173,6 +188,7 @@
         "fecha":"1994",
         "img":"c16.png",
         "tag":"warioland",
-        "fav":false
+        "fav":false,
+        "descripcion":"Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
     }
 ]

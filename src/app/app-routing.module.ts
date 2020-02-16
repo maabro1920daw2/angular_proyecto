@@ -8,9 +8,9 @@ import { HomeComponent } from './home/home.component'
 // rutas
 const routes: Routes = [
   // ruta vacia para indicar componente inicio loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
-  { path: '',  component: HomeComponent},
-  { path: 'favoritos', component: FavComponent },
-  { path: 'busqueda', component: SearchComponent },
+  { path: '',  component: HomeComponent, data: {animation: 'paginaInicio'}},
+  { path: 'favoritos', component: FavComponent, data: {animation: 'paginaFavoritos'} },
+  { path: 'busqueda', component: SearchComponent, data: {animation: 'paginaBusqueda'} },
   { path: 'juego/:id', component: GameComponent },
 ];
 

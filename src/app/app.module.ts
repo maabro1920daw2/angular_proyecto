@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 import { StorageServiceModule} from 'ngx-webstorage-service';
 
 import { MatToolbarModule, 
@@ -57,7 +58,8 @@ import { SliderComponent } from './home/slider/slider.component';
     MatTableModule,
     MatExpansionModule,
     MatDividerModule,
-    MatListModule
+    MatListModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

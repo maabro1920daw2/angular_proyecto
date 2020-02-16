@@ -13,6 +13,13 @@ const ELEMENT_DATA: Lista[] = listaJuegos;
 })
 export class GameComponent implements OnInit {
   public gameId = '';
+  titulo = '';
+  img = '';
+  fecha = '';
+  distribuidor = '';
+  consola = '';
+  desarrollador = '';
+
   constructor(activateRoute: ActivatedRoute) { 
     this.gameId = activateRoute.snapshot.params.id;
     this.buscarJuegos(this.gameId);
@@ -21,16 +28,19 @@ export class GameComponent implements OnInit {
 
   ngOnInit() {
   }
+  
 
   buscarJuegos(tag){
     for(let i = 0; i < ELEMENT_DATA.length; i++){
       if(tag == ELEMENT_DATA[i].tag){
-        var ju = new Juego(ELEMENT_DATA[i].id,ELEMENT_DATA[i].titulo, ELEMENT_DATA[i].distribuidor, ELEMENT_DATA[i].desarrollador, ELEMENT_DATA[i].consola, ELEMENT_DATA[i].fecha, ELEMENT_DATA[i].img, ELEMENT_DATA[i].tag, ELEMENT_DATA[i].fav);
-        break;
+        this.titulo = ELEMENT_DATA[i].titulo;
+        this.img = ELEMENT_DATA[i].img;
+        this.fecha = ELEMENT_DATA[i].fecha;
+        this.distribuidor = ELEMENT_DATA[i].distribuidor;
+        this.consola = ELEMENT_DATA[i].consola;
+        this.desarrollador = ELEMENT_DATA[i].desarrollador;
       }
     }
-
-    return ju;
   }
 
 }

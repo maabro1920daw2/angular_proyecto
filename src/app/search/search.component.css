@@ -9,8 +9,15 @@
     width: 100%;
 }
 
-.search .npt1 {
+.search {
     width: 100%;
+}
+.npt1 {
+    width: 31%;
+    padding-right: 46px;
+}
+.npt2 {
+    width: 31%;
 }
 
 table {
@@ -21,4 +28,13 @@ table {
 }
 .border {
     border-bottom-color: rgba(71, 52, 133, .12);
+}
+.container-descripcion {
+    width: 300px;
+}
+.fav-container {
+    text-align: center;
+}
+.verdadero {
+    color: red;
 }
